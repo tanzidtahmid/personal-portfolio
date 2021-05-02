@@ -1,0 +1,19 @@
+.fontAwesome{
+    border-right: 2px solid black;
+       display: flex;
+       flex-direction: column;
+
+}
+.fontAwesome svg {
+    margin: 5px;
+}
+@media(max-width : 320px){
+    .fontAwesome{
+        display: flex;
+        flex-direction: row;
+        border : none;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}

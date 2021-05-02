@@ -1,0 +1,8 @@
+.listItems{
+    list-style: none;
+    padding: 0px 5px;
+    margin: 3px 5px;
+    border-radius: 3px;
+    background-color: lightgray;
+    /* color: white; */
+}

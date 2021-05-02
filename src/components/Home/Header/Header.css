@@ -1,0 +1,14 @@
+.top-animation-container p{
+ font-size: 50px;
+}
+.top-animation-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
