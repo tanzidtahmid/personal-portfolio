@@ -1,9 +1,16 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import './Project.css'
 
 const Project = ({project}) => {
+    useEffect(()=>{
+        AOS.init({duration : 2000});
+    },[])
+    
     return (
-        <div className ='py-5 col-md-4 box'>
+        <div data-aos="fade-right" className ='py-5 col-md-4 box'>
             <div className = 'a'>
             <img className = 'img' style={{height : '200px', width : '300px'}} src={project.image} alt=""/>
             <h3>{project.name}</h3>
