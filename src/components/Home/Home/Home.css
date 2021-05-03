@@ -7,7 +7,7 @@
 .fontAwesome svg {
     margin: 5px;
 }
-@media(max-width : 4250px){
+@media(max-width : 425px){
     .fontAwesome{
         display: flex;
         flex-direction: row;

@@ -2,20 +2,13 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <h3 className ='my-5 py-5' style={{textAlign : 'center'}}>Thank You For Visit My Website</h3>
-            <div className = 'row  py-3'>
-                <div className="col-md-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla voluptatibus sequi nisi cupiditate.</p>
-                </div>
-                <div className="col-md-6">
-                    <h3>Contact With Me</h3>
-                    <h6>E-mail : mahamudtanjid@gmail.com</h6>
-                    <h6>Phone : 01883513768</h6>
+        <div className ='text-center'>
+            <h5 className ='my-5 pt-5' style={{textAlign : 'center',color : '#64ffda'}}>Whats Next?</h5>
+            <h1 className ='text-center color-white'>Get In Touch</h1>
+            <p className ='text-center'>I'd Love to hear from you . Whether you have a question or just want to say hi, fell free to drop a message. I'll try my best to get back to you!</p>
 
-                </div>
+            <button className="btn btn-primary text-center">Say Hello</button>
 
-            </div>
         </div>
     );
 };

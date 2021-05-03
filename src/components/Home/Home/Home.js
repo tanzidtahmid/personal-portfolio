@@ -18,7 +18,7 @@ const Home = () => {
                 <div className ='col-md-1 ' >
                     <div className = 'fontAwesome mt-5 py-5 '>
                     <a style = {{color: 'white'}} href="https://github.com/tanzidtahmid"><FontAwesomeIcon icon={faGithub}   size = '2x'></FontAwesomeIcon></a>
-                    <a  style = {{color: 'white'}} href="https://www.facebook.com/tanjid.mahamud"><FontAwesomeIcon icon={faFacebook}    size = '2x'></FontAwesomeIcon></a>
+                    <a  style = {{color: 'white'}} href="https://www.facebook.com/md.tanjidmahamud"><FontAwesomeIcon icon={faFacebook}    size = '2x'></FontAwesomeIcon></a>
                     
                     <a  style = {{color: 'white'}} href="https://www.linkedin.com/in/tanjid-mahamud-043860206/"><FontAwesomeIcon icon={faLinkedin} size = '2x'></FontAwesomeIcon></a>
                 </div>
