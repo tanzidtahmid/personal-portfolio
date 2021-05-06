@@ -8,6 +8,7 @@ import Projects from '../Projects/Projects';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Home.css'
+import LastFooter from '../../LastFooter/LastFooter';
 
 const Home = () => {
     return (
@@ -27,6 +28,7 @@ const Home = () => {
             <Projects></Projects>
             <Blogs></Blogs>
             <Footer></Footer>
+            <LastFooter></LastFooter>
             </div>
             </div>
         </div>

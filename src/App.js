@@ -9,6 +9,7 @@ import {
 import AboutMe from './components/AboutMe/AboutMe';
 import Projects from './components/Home/Projects/Projects';
 import Blogs from './components/Home/Blogs/Blogs';
+import ContactWithMe from './components/ContactWithMe/ContactWithMe';
 
 const App = () => {
   return (
@@ -26,6 +27,9 @@ const App = () => {
           </Route>
           <Route path ='/blogs'>
             <Blogs></Blogs>
+          </Route>
+          <Route path ='/contactWithMe'>
+            <ContactWithMe></ContactWithMe>
           </Route>
         </Switch>
       </div>
