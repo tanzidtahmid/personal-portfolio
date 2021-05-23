@@ -15,7 +15,7 @@ const Home = () => {
         <div>
             {/* <Navbar></Navbar> */}
             <Header></Header>
-            <div className ='row' style = {{backgroundColor: 'tomato', color : 'white'}}>
+            <div className ='row' style = {{backgroundColor: '#0a192f', color : 'white'}}>
                 <div className ='col-md-1 ' >
                     <div className = 'fontAwesome mt-5 py-5 '>
                     <a style = {{color: 'white'}} href="https://github.com/tanzidtahmid"><FontAwesomeIcon icon={faGithub}   size = '2x'></FontAwesomeIcon></a>
