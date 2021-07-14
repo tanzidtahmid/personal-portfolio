@@ -32,9 +32,9 @@ const Project = ({ project }) => {
                     </ul>
                 
                     <div className='links'>
-                        <a className='mx-1 text-white' href={project.liveLink} target="_blank"><FontAwesomeIcon icon = {faExternalLinkAlt}></FontAwesomeIcon></a>
-                        <a className='mx-1 text-white' href={project.clientSite} target="_blank"><FontAwesomeIcon icon = {faGithub}></FontAwesomeIcon></a>
-                        <a className='mx-1 text-white' href={project.surverSite} target="_blank"><FontAwesomeIcon icon = {faGithub}></FontAwesomeIcon> </a>
+                        <a className='mx-1 text-white' href={project.liveLink} target="_blank"><FontAwesomeIcon icon = {faExternalLinkAlt} size = '2x'></FontAwesomeIcon></a>
+                        <a className='mx-1 text-white' href={project.clientSite} target="_blank"><FontAwesomeIcon icon = {faGithub} size = '2x'></FontAwesomeIcon></a>
+                        <a className='mx-1 text-white' href={project.surverSite} target="_blank"><FontAwesomeIcon icon = {faGithub} size = '2x'></FontAwesomeIcon> </a>
                     </div>
                 </div>
             </div>
