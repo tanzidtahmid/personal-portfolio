@@ -13,9 +13,9 @@ const Project = ({ project }) => {
     }, [])
 
     return (
-        <div data-aos="fade-right" className='col-md-4'>
+        <div data-aos="fade-right" className='col-md-4 col-sm-12'>
             <div className='project-items py-5 mx-4'>
-                <img className='img' src={project.image} alt="" />
+                <img className='img img-fluid' src={project.image} alt="" />
                 <h3>{project.name}</h3>
 
 
